@@ -1,0 +1,121 @@
+/* Global CSS Reset & Fixed 1440px Canvas Setup */
+:root {
+  --bg-obsidian: #08080c;
+  --bg-card: rgba(18, 17, 26, 0.95);
+  --bg-card-elevated: rgba(26, 24, 38, 0.98);
+  --bg-glass: rgba(255, 255, 255, 0.03);
+  --bg-glass-pink: rgba(224, 26, 136, 0.06);
+
+  --accent-magenta: #e01a88;
+  --accent-magenta-light: #ff4da6;
+  --accent-magenta-glow: rgba(224, 26, 136, 0.4);
+  --accent-rose: #f43f5e;
+  --accent-gold: #d4af37;
+  --accent-gold-light: #f6e6b4;
+  --accent-gold-glow: rgba(212, 175, 55, 0.35);
+
+  --text-primary: #ffffff;
+  --text-secondary: #e2e1ec;
+  --text-muted: #9f9cb2;
+  --text-pink: #ff52aa;
+  --text-gold: #e6c875;
+
+  --border-subtle: rgba(255, 255, 255, 0.08);
+  --border-pink: rgba(224, 26, 136, 0.35);
+  --border-gold: rgba(212, 175, 55, 0.35);
+
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-display: 'Cinzel', serif;
+  --font-script: 'Great Vibes', cursive;
+
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ZERO animations requirement: Disable all animations, transitions, and scroll effects */
+*,
+*::before,
+*::after {
+  animation: none !important;
+  transition: none !important;
+  scroll-behavior: auto !important;
+}
+
+html {
+  background-color: var(--bg-obsidian);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+body {
+  background-color: var(--bg-obsidian);
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+#root {
+  width: 1440px;
+  min-width: 1440px;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0;
+  background-color: var(--bg-obsidian);
+  display: flex;
+  flex-direction: column;
+}
+
+/* The master landing page wrapper strictly 1440px wide */
+#landing-page {
+  width: 1440px;
+  min-width: 1440px;
+  max-width: 1440px;
+  margin: 0 auto;
+  position: relative;
+  background-color: var(--bg-obsidian);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* Base section container rules */
+.sob-section {
+  width: 1440px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+/* Section dividers and gold/magenta ornamental lines */
+.sob-divider {
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent 0%, rgba(224, 26, 136, 0.4) 30%, rgba(212, 175, 55, 0.5) 50%, rgba(224, 26, 136, 0.4) 70%, transparent 100%);
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
