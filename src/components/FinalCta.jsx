@@ -48,21 +48,32 @@ export default function FinalCta() {
           ))}
         </div>
 
-        {/* Master CTA Button */}
+        {/* Master Pricing & CTA Block */}
         <div className="final-cta-btn-block">
+          {/* Final Discount Price Badge */}
+          <div className="final-price-tag-wrap">
+            <span className="final-price-label">LIMITED TIME DISCOUNT OFFER:</span>
+            <div className="final-price-numbers">
+              <span className="final-price-old">$300</span>
+              <span className="final-price-sep">→</span>
+              <span className="final-price-new">$147</span>
+            </div>
+            <span className="final-price-badge">SAVE 51% TODAY</span>
+          </div>
+
           <div className="final-master-btn">
             <span className="master-btn-main">
-              JOIN TODAY AND EARN 100% PROFITS
+              JOIN TODAY FOR ONLY $147
             </span>
             <span className="master-btn-sub">
-              BECAUSE THIS TIME, YOU MOVE WITH PURPOSE.
+              EARN 100% PROFITS &bull; BECAUSE THIS TIME, YOU MOVE WITH PURPOSE.
             </span>
           </div>
 
           <div className="final-urgency-banner">
             <span className="final-urgency-icon">💥</span>
             <span className="final-urgency-text">
-              Spots are limited! Don't wait—take the first step toward financial freedom today!
+              Special Discount: $300 to $147. Spots are strictly limited—enroll before doors close!
             </span>
           </div>
         </div>

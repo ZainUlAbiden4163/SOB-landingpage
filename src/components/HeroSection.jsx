@@ -67,20 +67,35 @@ export default function HeroSection() {
             </div>
           </div>
 
-          {/* Primary CTA Block */}
+          {/* Primary Directive Block with Discount Pricing */}
           <div className="hero-cta-block">
-            <div className="hero-cta-button">
-              <span className="hero-cta-text">
-                JOIN TODAY AND EARN 100% PROFITS
-              </span>
-              <span className="hero-cta-subtext">
-                BECAUSE THIS TIME, YOU MOVE WITH PURPOSE.
-              </span>
+            {/* Discount Price Callout */}
+            <div className="hero-discount-pill-row">
+              <div className="hero-price-tag">
+                <span className="hero-price-original">$300</span>
+                <span className="hero-price-arrow">→</span>
+                <span className="hero-price-discounted">$147</span>
+              </div>
+              <span className="hero-savings-badge">SAVE 51% TODAY</span>
+            </div>
+
+            {/* Directive Banner Pointing to Form Below */}
+            <div className="hero-directive-card">
+              <div className="directive-arrow-icon">👇</div>
+              <div className="directive-text-wrap">
+                <span className="hero-directive-text">
+                  JOIN TODAY FOR ONLY $147 &bull; FILL OUT THE FORM BELOW
+                </span>
+                <span className="hero-directive-subtext">
+                  Scroll down to complete your details in the checkout form & start earning 100% profits!
+                </span>
+              </div>
+              <div className="directive-arrow-icon">👇</div>
             </div>
 
             <div className="hero-urgency-note">
               <span className="hero-urgency-star">💥</span>
-              <span>Spots are limited! Don't wait—take the first step toward financial freedom today!</span>
+              <span>Special Discount: $300 to $147. Fill out the checkout form below to secure your spot!</span>
             </div>
           </div>
         </div>

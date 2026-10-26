@@ -99,9 +99,14 @@ export default function WhyCourse() {
             </p>
           </div>
           <div className="future-banner-cta">
-            <div className="future-cta-btn">
-              <span>GET STARTED NOW</span>
-              <small>Spots are limited! Don't wait—take the first step today!</small>
+            <div className="future-directive-card">
+              <span className="future-directive-arrow">👇</span>
+              <div className="future-directive-details">
+                <span className="future-directive-tag">SPECIAL $147 OFFER</span>
+                <span className="future-directive-main">COMPLETE PAYMENT IN FORM BELOW</span>
+                <span className="future-directive-sub">Scroll to the bottom of the page to lock in $147 (was $300)</span>
+              </div>
+              <span className="future-directive-arrow">👇</span>
             </div>
           </div>
         </div>

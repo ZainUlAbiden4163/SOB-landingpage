@@ -86,8 +86,13 @@ export default function PainPoints() {
         </p>
 
         <div className="resolution-cta-row">
-          <div className="resolution-btn">
-            <span>START TODAY &bull; STAND ON BUSINESS</span>
+          <div className="resolution-directive-card">
+            <span className="resolution-arrow">👇</span>
+            <div className="resolution-directive-content">
+              <strong>READY TO BREAK FREE? COMPLETE YOUR ENROLLMENT BELOW</strong>
+              <span>Claim the special $147 launch offer ($300 value) in the secure checkout form directly below!</span>
+            </div>
+            <span className="resolution-arrow">👇</span>
           </div>
         </div>
       </div>
