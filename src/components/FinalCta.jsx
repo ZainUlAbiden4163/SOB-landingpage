@@ -61,19 +61,25 @@ export default function FinalCta() {
             <span className="final-price-badge">SAVE 51% TODAY</span>
           </div>
 
-          <div className="final-master-btn">
-            <span className="master-btn-main">
-              JOIN TODAY FOR ONLY $147
+          {/* Directive Pointer Box Pointing to Stan Form Below */}
+          <div className="final-directive-box">
+            <div className="final-directive-arrows">👇 👇 👇</div>
+            <span className="final-directive-main">
+              COMPLETE YOUR ENROLLMENT IN THE FORM DIRECTLY BELOW
             </span>
-            <span className="master-btn-sub">
-              EARN 100% PROFITS &bull; BECAUSE THIS TIME, YOU MOVE WITH PURPOSE.
+            <span className="final-directive-sub">
+              FILL OUT YOUR DETAILS UNDERNEATH TO CLAIM $147 ACCESS (SAVE $153 TODAY)
             </span>
+            <div className="final-directive-badge">
+              <span>INSTANT SKOOL COMMUNITY & ALL 20 MODULES INCLUDED</span>
+            </div>
+            <div className="final-directive-arrows">👇 👇 👇</div>
           </div>
 
           <div className="final-urgency-banner">
             <span className="final-urgency-icon">💥</span>
             <span className="final-urgency-text">
-              Special Discount: $300 to $147. Spots are strictly limited—enroll before doors close!
+              Special Discount: $300 to $147. Enter your details in the checkout form below to secure your spot!
             </span>
           </div>
         </div>
