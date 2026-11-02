@@ -1,9 +1,6 @@
 import React from 'react';
 import HeroSection from './components/HeroSection';
 import ProgramIntro from './components/ProgramIntro';
-import WhyCourse from './components/WhyCourse';
-import LearningExperience from './components/LearningExperience';
-import ModulesCurriculum from './components/ModulesCurriculum';
 import PainPoints from './components/PainPoints';
 import CreatorStory from './components/CreatorStory';
 import SkoolTestimonials from './components/SkoolTestimonials';
@@ -27,54 +24,39 @@ export default function App() {
         </div>
       </div>
 
-      {/* 1. Impactful Hero Section */}
+      {/* 1. Page 1: Welcome to Earn with Aysh! */}
       <HeroSection />
 
       {/* Static Luxury Marquee Ribbon */}
       <MarqueeBanner variant="magenta" />
 
-      {/* 2. SOB Program Introduction */}
+      {/* 2. Page 2: What is SOB & Why It's Different (Beginner Friendly) */}
       <ProgramIntro />
-
-      <div className="sob-divider" />
-
-      {/* 3. Why This Course & Value Pillars */}
-      <WhyCourse />
-
-      <div className="sob-divider" />
-
-      {/* 4. Visual Presentation of the Learning Experience */}
-      <LearningExperience />
-
-      <div className="sob-divider" />
-
-      {/* 5. The 20 Modules Comprehensive Curriculum */}
-      <ModulesCurriculum />
 
       {/* Static Luxury Marquee Ribbon */}
       <MarqueeBanner variant="gold" />
 
-      {/* 6. Audience Pain Points ("If this is you... START TODAY!") */}
+      {/* 3. Audience Pain Points ("If this is you... START TODAY!") */}
       <PainPoints />
 
       <div className="sob-divider" />
 
-      {/* 7. The Creator's Story (Lae) */}
+      {/* 4. The Creator's Story (Lae) */}
       <CreatorStory />
 
       <div className="sob-divider" />
 
-      {/* 8. Skool Community Testimonials (People Making 6 Figures/Month) */}
+      {/* 5. Skool Community Testimonials (People Making 6 Figures/Month) */}
       <SkoolTestimonials />
 
       <div className="sob-divider" />
 
-      {/* 9. Exclusive Discount Offer ($300 to $147 Value Stack) */}
+      {/* 6. Exclusive Discount Offer ($300 to $147 Value Stack) */}
       <DiscountOffer />
 
       <div className="sob-divider" />
 
-      {/* 10. Strong Final Call to Action */}
+      {/* 7. Strong Final Call to Action */}
       <FinalCta />
 
       {/* Static Luxury Closing Ribbon */}
